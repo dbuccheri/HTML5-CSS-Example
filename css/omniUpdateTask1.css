@@ -1,0 +1,290 @@
+/************************************************************
+              Daniel Buccheri's Custom styles
+ ************************************************************/
+
+/*Reset and Normalise all the css attribute, to eliminate differecese between Browsers*/
+@import url("reset.css");
+
+/* Import lightbox.css */
+@import url("lightbox.css");
+
+/* Adjust the base font to 62.5% to simplify font size calculation.
+   Now 1em = 10px                                                   */
+body {font-size:62.5%; background: #222244; font-family: arial; overflow:hidden; }
+
+/*Main website wrapper*/
+#Wrapper {
+    margin: 0 auto;
+    width:700px;
+    margin-top:20px;
+}
+
+Header {
+    display:block;
+    background: #444466;
+    width:100%;
+    height: 165px;
+    float:left;
+    -moz-border-radius-topright: 20px; /*Firefox Compatibility*/
+    border-top-right-radius: 20px;
+    -moz-border-radius-topleft: 20px; /*Firefox Compatibility*/
+    border-top-left-radius: 20px;
+    
+}
+
+/* Logo Monitor Omniupdate*/
+#logo {
+    position: relative;
+}
+
+#logo img {
+    
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#ContentWrapper {
+    clear: both;
+    background: white;
+    overflow: auto;
+}
+
+#Col1 {
+    background: white ;
+    width:165px;
+    float: left;
+    margin: 0 auto;    
+    
+}
+      
+#Col2 {
+    background: white;
+    width:460px;
+    min-height: 350px;
+    margin:0 auto;
+    padding: 0 20px 0 20px;
+    float: right;
+    overflow: hidden;
+}
+         
+#Footer {
+    width: 100%;
+    display: inline-block;   
+    text-align: center;
+    margin: 0 auto;
+    background: #664443;
+    height: 50px;
+    vertical-align: middle;
+    float: left;
+    top:150px;
+    -moz-border-radius-bottomright: 20px; /*Firefox Compatibility*/
+    border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;  /*Firefox Compatibility*/
+    border-bottom-left-radius: 20px;
+}
+
+#Footer footer{
+    position:relative;
+    top: 18px;
+    font-size: 1.2em;
+    color: white;
+    font-style: normal;
+}
+
+/* Logo Text Omniupdate*/
+Header h1 {
+    color: white;
+    font-size: 6.0em;
+    position: relative;
+    top: 50px;
+    left: 225px;
+}
+
+/* menu style */
+
+#Menu  li  {
+    padding: 13px 0 10px 25px; 
+    border-bottom: dotted 1px;
+    font-size: 1.3em;
+}
+
+#Menu a:link {
+    font-family: arial;
+    color: #664443;
+    text-decoration: none;
+}
+
+/* visited link */
+#Menu a:visited {
+    font-family: arial;
+    color: #664443;
+    text-decoration: none;
+}
+
+/* mouse over link */
+#Menu a:hover {
+    font-family: arial;
+    color: #664443;
+    text-decoration: underline;
+}
+
+/* selected link */
+#Menu a:active {
+    font-family: arial;
+    color: #664443;
+    text-decoration: none;
+}
+
+/* Link style */
+
+
+a:link {
+    font-family: arial;
+    color: #0783B6;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    font-family: arial;
+    color: #0783B6;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    font-family: arial;
+    color: #0783B6;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    font-family: arial;
+    color: #0783B6;
+    text-decoration: none;
+}
+
+/* Content Style */
+
+#Col2 h2 {
+    margin-top:40px;
+    margin-bottom:15px;
+    font-size: 2.6em;   
+}
+
+#Col2 p{
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+
+
+#Feature p{
+    color: grey;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    padding:20px 0 20px 20px;
+    text-align: justify;
+}
+
+/* Gallery Images Formatting */
+
+#Gallery img{
+    overflow: hidden;
+    border:0;
+    width: 80px;
+    height: 80px;
+    margin: 20px 20px 10px 10px;        
+}
+
+/* table formatting */
+
+#Col2 table.tableExample{
+    margin:0 auto;
+    text-align: center;
+}
+
+table.tableExample td.leftAllign {
+text-align: left;
+}
+
+table.tableExample th.leftAllign {
+text-align: left;
+}
+
+table.tableExample{
+    
+    width: 80%;
+}
+
+table.tableExample caption{
+    font-size: 1.3em;
+    color:brown;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+table.tableExample th {
+    margin:0 auto;
+    vertical-align: bottom;
+}
+
+table.tableExample th, td {
+    border: 1px solid white;
+    font-size: 1.2em;
+    padding: 5px 10px 5px 10px ;
+}
+
+table.tableExample tr:nth-child(even) {
+    background-color: #cec9db;
+}
+
+table.tableExample tr:nth-child(odd) {
+    background-color: #e2e0ed;
+}
+
+table.tableExample th {
+    color: white;
+    background-color: #858190;
+}
+
+#businessCard{
+    color:#d4d4d4;
+    background: rgba(214, 214, 214, 0.14);
+    border:1px solid ;
+    width: 250px;
+    height: 100px;
+    padding: 20px;
+    -moz-border-radius: 10px; /*Firefox Compatibility*/
+    border-radius: 10px;
+    -moz-border-radius: 10px;  /*Firefox Compatibility*/
+    border-radius: 10px;
+    margin: 20px auto auto 70px;
+    text-align: center;
+}
+
+#businessCard h3{
+    font-family: tahoma;
+    font-size: 1.5em;
+    color:rgb(52, 52, 52);
+    margin-top:10px;
+    margin-bottom: 33px;
+    text-align: center;
+}
+
+#businessCard p{
+     text-align: right;
+     font-family: tahoma;
+     font-size: 1.2em;
+     line-height: 1.4em;
+}
+
+.linkedin{
+    color:#0783B6;
+}
+
+img.linkedinBadge{
+    vertical-align:middle;
+}
